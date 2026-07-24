@@ -923,7 +923,7 @@
     <div class="stats-bar">
         <div class="stat reveal">
             <div class="stat-value" id="stat1">0</div>
-            <div class="stat-label">Community</div>
+            <div class="stat-label">Value Created</div>
         </div>
         <div class="stat reveal">
             <div class="stat-value" id="stat2">0</div>
@@ -1777,7 +1777,7 @@
         const observer = new IntersectionObserver((entries) => {
             entries.forEach(entry => {
                 if (entry.isIntersecting) {
-                    animateStat('stat1', 200, 'K+');
+                    animateStat('stat1', 8, 'M+');
                     animateStat('stat2', 250, 'K+');
                     animateStat('stat3', 5);
                     animateStat('stat4', 15);
